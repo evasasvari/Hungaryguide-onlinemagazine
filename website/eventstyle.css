@@ -1,0 +1,155 @@
+/*eventpage */
+
+/*header starts*/
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(eventimages/eventheader.jpg);
+    height: 426px;
+    
+    
+}
+header>h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 72px;
+    text-align: center;
+    
+    
+
+
+}
+#intro{
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:gray;
+    font-family: "poppins",sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    padding:30px;
+    margin-top:30px;
+}
+
+.october>h2{
+    border-top: solid #EAC100 3px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 108.69%;
+    color: #0B8457;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.october{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.left{
+    float: left;
+}
+.flexcontainer{
+    display: flex;
+  flex-wrap: wrap;
+  
+  box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width:858px;
+  height:270px;
+ 
+  
+
+}
+.right{
+    padding-left: 30px;
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.left>img{
+    width: 350px;
+    padding:0px;
+    margin:0px;
+}
+.eventname{
+    color: #0B8457;
+    font-family: "poppins",sans-serif;
+    width: 400px;
+    word-wrap: break-word;
+    font-size: 30px;
+
+}
+.location{
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+    font-weight: 200;
+    font-family: "Montserrat";
+    padding-top: 10px;
+    
+}
+
+.seedetails{
+    text-decoration: none;
+    color:#EAC100;
+    font-family:"poppins",sans-serif;
+    float:right;
+    
+    
+
+}
+
+.november{
+    padding-bottom: 50px;
+}
+
+.november>h2{
+    border-top: solid #EAC100 3px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 108.69%;
+    color: #0B8457;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+
+}
+
+#seemoresection{
+    padding-bottom: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+#seemore{
+    
+    
+    text-decoration: none;
+    color: #EAC100;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    
+    
+}

@@ -1,0 +1,81 @@
+/*article page stylesheet*/
+
+/*header starts*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(articleimages/articleheader.jpg);
+    height: 426px;
+    
+    
+}
+header>h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 72px;
+    text-align: center;
+    
+    
+
+
+}
+
+
+
+
+/*articles*/
+
+.articlesection{
+
+    max-width: 1149px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+}
+
+.intro{
+    font-family: "Slabo 27px", serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 36px;
+    width: 900px;
+    
+    
+   
+
+}
+
+.articleimg{
+    width: 833px;
+    height: 509px;
+    
+   
+
+}
+
+body>.articlesection>article{
+    padding:50px;
+}
+
+h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 108.69%;
+color: #0B8457;
+padding-bottom: 30px;
+}
+.content{
+    width:900px;
+    font-family:"Slabo 27px", serif;
+    font-size: 20px;
+    line-height: 30px;
+
+    
+}
+.piccredit{
+    color:gray;
+    font-family: "Montserrat", sans-serif;
+    font-size:12px;
+    justify-self: right;
+}

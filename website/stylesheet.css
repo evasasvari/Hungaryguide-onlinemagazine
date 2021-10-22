@@ -1,0 +1,301 @@
+/*home page stylesheet*/
+*{
+    padding:0;
+    margin: 0;
+}
+
+/*header starts*/
+
+nav{
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    background-color: #0B8457;
+    width: 100%;
+    height: 50px;
+    position:fixed;
+    text-align: right;
+    
+    
+}
+
+nav>a{
+    text-decoration: none;
+    color:white;
+    padding: 30px;
+    text-align: right;
+    
+    
+
+   
+
+}
+
+nav>a:hover{
+    color:#EAC100;
+    text-decoration-style: solid;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-color: #EAC100;
+
+}
+
+
+#logo{
+    width: 102px;
+    height: 102px;
+
+    
+    
+    
+    
+}
+#alogo{
+    justify-self: left;
+    float:left;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+header{
+    height:667px;
+    width: 100%;
+    background-image:url(images/heroimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+
+header>h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 108px;
+    padding-top: 170px;
+    padding-left: 100px;
+    
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    left: 99px;
+    top: 183px;
+    color:white;
+    
+
+}
+
+
+header>p{
+    
+    width: 669px;
+    height: 72px;
+    left: 102px;
+    top: 141px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-left: 100px;
+
+
+}
+
+header>button{
+    
+    background-color: white;
+    border-radius: 10px;
+    border: 5px;
+    color: #EAC100;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    font-family: "poppins",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    
+    background-color:#EAC100; 
+    color:white; 
+    border: 2px solid #EAC100;
+
+    font-family: "poppins",sans-serif;
+    margin-left: 100px;
+    margin-top: 150px;
+
+  
+}
+header>a>button:hover {
+    background-color:white ;
+    color: #EAC100;
+}
+
+/*header ends*/
+
+/*new articles starts*/
+
+
+
+main>.section1{
+
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+main>.section1>div{
+    box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.3);
+    height:550px;
+    width: 404px;
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+main>.section1>div>p{
+
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding:10px;
+    line-height: 32px;
+    font-size: 28px;
+}
+#esztergomarticle{
+    Width:404px;
+    Height:297px;
+    padding-bottom: 50px;
+    
+}
+.corona{
+    Width:404px;
+    Height:297px;
+    padding-bottom: 50px;
+}
+
+/*new articles ends*/
+
+
+/*choose your destination starts*/
+main>.section2{
+    margin-top: 100px;
+    background-color: #0B8457;
+    height:695px;
+}
+
+main>.section2>div>h2{
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color:#FFFFFF;
+    margin-left: 70px;
+    margin-top: 50px;
+
+
+}
+#hungarymap{
+
+    width: 815px;
+    height: 527px;
+    justify-self: center;
+    margin-left: 350px;
+  
+    margin-top: 50px;
+}
+
+.section3{
+    margin-top: 70px;
+    margin-bottom: 150px;
+    align-items: center;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.section3>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+ 
+
+.h2type1{
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color:#0B8457;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+/*choose your destination ends*/
+
+
+
+
+/*footer starts*/
+
+footer{
+    background-color: #0B8457;
+    
+   
+}
+
+
+footer>h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 36px;
+    color: white; 
+    font-weight: 500; 
+    border-bottom: #FFFFFF;
+    border-bottom-style: solid;
+    text-align: center; 
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+/*footer starts*/
+footer>table{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 80%;
+    padding: 60px;
+    
+
+}
+
+footer>table>tr>td{
+    text-align: center;
+    vertical-align: middle;
+    font-family: "poppins",sans-serif;
+  
+}
+
+.footericon{
+    width: 30px;
+    height: 30px;
+
+}
